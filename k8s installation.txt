@@ -76,6 +76,7 @@ sudo systemctl start kubelet
 
 
 sudo kubeadm config images pull
+# kubeadm init phase --cri-socket /var/run/crio/crio.sock
 
 sudo kubeadm init
 
