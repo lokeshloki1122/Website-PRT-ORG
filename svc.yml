@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-PRT-deployment
+  name: mysvcdeployment
 spec:
   type: NodePort
   ports:
