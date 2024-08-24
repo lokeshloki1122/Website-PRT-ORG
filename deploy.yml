@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: custom
-        image: lokeshloki1122/prt
+        image: lokeshloki1122/prtimage
         ports:
         - containerPort: 80
